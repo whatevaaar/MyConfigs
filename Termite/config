@@ -1,3 +1,7 @@
+#Non-theme stuff
+font = Droid Sans Mono 8
+
+
 #Put me in ~/.config/termite/config
 [colors]
 # Base16 Atelier Seaside

@@ -1,8 +1,8 @@
 # Configs
 
-Configuraciones para apps de linux
+Configuraciones para apps de Linux
 
 ## Apps
 * Fish
 * i3
-* termite
+* Termite
