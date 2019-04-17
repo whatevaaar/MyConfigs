@@ -1,10 +1,9 @@
 #
 # ~/.bashrc
 #
-fish
 
 [[ $- != *i* ]] && return
-
+export EDITOR=vim
 colors() {
 	local fgc bgc vals seq0
 
@@ -96,11 +95,12 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
-alias pulseaudio='pulseaudio --kill; pulseaudio'
-alias reborn='shutdown now -r'
+alias tryagain='shutdown now -r'
 alias harakiri='shutdown now'
 alias catz='/home/nexus/CLionProjects/Catz/cmake-build-debug/Catz'
 alias clion='/home/nexus/Downloads/clion-2018.3.4/bin/clion.sh'
+alias i3config='vim ~/.i3/config'
+alias bashconfig='vim ~/.bashrc'
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo

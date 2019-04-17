@@ -10,3 +10,6 @@ alias catz="/home/nexus/CLionProjects/Catz/cmake-build-debug/Catz"
 alias termiteconf="vim /home/nexus/.config/termite/config"
 alias i3config="vim ~/.i3/config"
 alias diamond="/usr/local/diamond/3.10_x64/bin/lin64/diamond"
+
+#Colores
+set -g color_dir_bg red

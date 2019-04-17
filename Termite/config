@@ -6,8 +6,7 @@ foreground          = #C0C5CE
 foreground_bold     = #CDD3DE
 cursor              = #CDD3DE
 cursor_foreground   = #1B2B34
-background          = rgba(27, 43, 52)
-
+background = rgba(73, 63,87, 1)
 # 16 color space
 
 # Black, Gray, Silver, White
@@ -50,6 +49,6 @@ color21 = #CDD3DE
 
 #Non-theme stuff
 font = Droid Sans Mono 8
-
+audible_bell = true
 
 #Put me in ~/.config/termite/config
