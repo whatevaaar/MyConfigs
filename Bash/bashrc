@@ -1,7 +1,8 @@
 #
 # ~/.bashrc
 #
-
+~/MyUtils/C/catz
+wal -R -q
 [[ $- != *i* ]] && return
 export EDITOR=vim
 colors() {
@@ -97,10 +98,15 @@ alias np='nano -w PKGBUILD'
 alias more=less
 alias tryagain='shutdown now -r'
 alias harakiri='shutdown now'
-alias catz='/home/nexus/CLionProjects/Catz/cmake-build-debug/Catz'
+alias catz='/home/nexus/MyUtils/C/catz'
 alias clion='/home/nexus/Downloads/clion-2018.3.4/bin/clion.sh'
 alias i3config='vim ~/.i3/config'
 alias bashconfig='vim ~/.bashrc'
+alias pomodoro='/home/nexus/CLionProjects/Pomodoro/pomodoro'
+alias diamond='/usr/local/diamond/3.10_x64/bin/lin64/diamond'
+alias termiteconfig='vim ~/.config/termite/config'
+alias fixaudio='killall pulseaudio; pulseaudio'
+
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo

@@ -6,3 +6,10 @@ Configuraciones para apps de Linux
 * Fish
 * i3
 * Termite
+* Polybar
+* Urxvt 
+
+## Dependencias
+*Pywal
+*Material design icons
+*Fantasque Sans Mono

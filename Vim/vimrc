@@ -9,10 +9,7 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'airblade/vim-gitgutter'
-Plugin 'itchyny/lightline.vim'
-Plugin 'lervag/vimtex'
 
+Plugin 'xuhdev/vim-latex-live-preview'
 call vundle#end()            " required
 filetype plugin indent on    " required
-
