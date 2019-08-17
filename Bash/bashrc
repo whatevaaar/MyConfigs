@@ -106,7 +106,9 @@ alias pomodoro='/home/nexus/CLionProjects/Pomodoro/pomodoro'
 alias diamond='/usr/local/diamond/3.10_x64/bin/lin64/diamond'
 alias termiteconfig='vim ~/.config/termite/config'
 alias fixaudio='killall pulseaudio; pulseaudio'
-
+alias polybarconfig='vim ~/.config/polybar/config'
+alias flavour='/home/nexus/MyUtils/Bash/flavour.sh'
+alias urxvtconfig='vim ~/.Xresources'
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo
