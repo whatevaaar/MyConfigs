@@ -46,3 +46,5 @@ urxvt*shading: 30
 *.colorIT:      #719611
 *.colorBD:      #d3d3d3
 *.colorUL: #528b8b
+
+URxvt.perl-ext-common: ...,font-size

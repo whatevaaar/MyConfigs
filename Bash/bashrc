@@ -1,7 +1,6 @@
 #
 # ~/.bashrc
 #
-~/MyUtils/C/catz
 (cat ~/.cache/wal/sequences &)
 
 # Alternative (blocks terminal for 0-3ms)
@@ -108,13 +107,14 @@ alias catz='/home/nexus/MyUtils/C/catz'
 alias clion='/home/nexus/Downloads/clion-2018.3.4/bin/clion.sh'
 alias i3config='vim ~/.i3/config'
 alias bashconfig='vim ~/.bashrc'
-alias pomodoro='/home/nexus/CLionProjects/Pomodoro/pomodoro'
+alias pomodoro='/home/nexus/Code/C/ShellPomodoro/pomodoro'
 alias diamond='/usr/local/diamond/3.10_x64/bin/lin64/diamond'
 alias termiteconfig='vim ~/.config/termite/config'
 alias fixaudio='killall pulseaudio; pulseaudio'
 alias polybarconfig='vim ~/.config/polybar/config'
 alias flavour='/home/nexus/MyUtils/Bash/flavour.sh'
 alias urxvtconfig='vim ~/.Xresources'
+alias pycharm='/home/nexus/Downloads/pycharm-2018.3.5/bin/pycharm.sh'
 xhost +local:root > /dev/null 2>&1
 
 complete -cf sudo
